@@ -1,0 +1,26 @@
+{
+  "name": "js2-hw14",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/Pan-Artur/js2-hw14#readme",
+  "bugs": {
+    "url": "https://github.com/Pan-Artur/js2-hw14/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pan-Artur/js2-hw14.git"
+  },
+  "license": "ISC",
+  "author": "Artur Pankovets",
+  "type": "module",
+  "scripts": {
+    "start": "npx parcel src/index.html",
+    "build": "parcel build src/index.html --public-url ./",
+    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build"
+  },
+  "dependencies": {
+    "gh-pages": "^6.3.0",
+    "parcel": "^2.13.3"
+  }
+}
